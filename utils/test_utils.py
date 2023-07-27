@@ -15,9 +15,13 @@ def arg_parser():
                         help="Batch size.")
     parser.add_argument("--name", required=True,
                         help="Name of this run. Used for monitoring and checkpointing.")
-
+    parser.add_argument("--model_name", default="resnetv2", help="Which model family to use")
     parser.add_argument("--model", default="BiT-S-R101x1", help="Which variant to use")
     parser.add_argument("--model_path", type=str, help="Path to the model you want to test")
+    parser.add_argument("--dropRate", type=float, help="Drop rate for WideResNet moodel")
+    parser.add_argument("--input_size", type=int, help="Input size of the model" )
+    parser.add_argument('--mean', nargs='+', type=float)
+    parser.add_argument('--std', nargs='+', type=float)
 
     return parser
 

@@ -1,5 +1,5 @@
 from utils import log
-import resnetv2
+import models.resnetv2 as resnetv2
 import torch
 import time
 import torchvision as tv
