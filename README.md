@@ -1,4 +1,4 @@
-# On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+# Benchmarking OoD Detection Methods
 
 Code is modified from [GradNorm](https://github.com/deeplearning-wisc/gradnorm_ood) offical implementation source code.
 
@@ -13,7 +13,7 @@ Please download [CIFAR-10](https://cloud.univ-grenoble-alpes.fr/s/ipgfAwg4Fk4CyP
 
 #### Out-of-distribution dataset
 
-Please download [Textures](), [SVHN](https://cloud.univ-grenoble-alpes.fr/s/oaRAzmedmCxxSgf), [LSUN-C](https://cloud.univ-grenoble-alpes.fr/s/cDnrfzr3zF288xk), [LSUN-R](https://cloud.univ-grenoble-alpes.fr/s/Pa8YEZCJRNKtaCe), [iSUN](https://cloud.univ-grenoble-alpes.fr/s/YfAkELSf6PfiaN2), [Places365](), and put all downloaded OOD datasets into `./dataset/ood_data/`.
+Please download [Textures](https://cloud.univ-grenoble-alpes.fr/s/RHZcTbPJqjwQkkk), [SVHN](https://cloud.univ-grenoble-alpes.fr/s/oaRAzmedmCxxSgf), [LSUN-C](https://cloud.univ-grenoble-alpes.fr/s/cDnrfzr3zF288xk), [LSUN-R](https://cloud.univ-grenoble-alpes.fr/s/Pa8YEZCJRNKtaCe), [iSUN](https://cloud.univ-grenoble-alpes.fr/s/YfAkELSf6PfiaN2), [Places365](), and put all downloaded OOD datasets into `./dataset/ood_data/`.
 
 ### 2. Model Preparation
 
