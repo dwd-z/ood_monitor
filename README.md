@@ -19,6 +19,7 @@ Please download [Textures](), [SVHN](https://cloud.univ-grenoble-alpes.fr/s/oaRA
 
 We omit the process of pre-training a classification model on ImageNet-1k.
 For the ease of reproduction, we provide our trained models [cifar10_wrn_normal_standard_epoch_199.pt](https://cloud.univ-grenoble-alpes.fr/s/xbZ4R65j9KGnqiN), [cifar10_wrn_logitnorm_standard_epoch_199.pt](https://cloud.univ-grenoble-alpes.fr/s/CpqQK3YrsQ23xqD)
+
 Please put the downloaded model in `./checkpoints/`.
 
 ### 3. OOD Detection Evaluation
